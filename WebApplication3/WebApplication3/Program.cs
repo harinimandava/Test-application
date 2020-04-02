@@ -20,6 +20,7 @@ namespace WebApplication3
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    Console.WriteLine("Hello World");
                     webBuilder.UseStartup<Startup>();
                 });
     }
